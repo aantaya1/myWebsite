@@ -21,14 +21,14 @@ h2 {
 }
 
 p {
-  color:#EDF5E1;
+  color:#05386B;
   background: #8EE4AF;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 23px;
-  margin: 10px 0 25px 0;
-  padding: 2.5%;
-  border-radius: 10%;
+  margin: 10px 0 10px 0;
+  padding: 1.5%;
+  border-radius: 0%;
 }
 
 a {
@@ -50,13 +50,23 @@ nav ul li a{
   font-weight: bold;
 }
 
+project ul li{
+  color:#EDF5E1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  list-style-type: square;
+  margin: 0 0 10px 0;
+  padding: 0px 15px 5px 15px;
+}
+
 footer{
   color:#05386B;
   clear:both;
+  margin: 25px 0 0 0;
 }
 
 .round{
-  border-radius: 25%;
+  border-radius: 5%;
 }
 
 .center{
@@ -68,6 +78,4 @@ footer{
 
 .centertext{
   display: block;
-  margin-left: 5%;
-  margin-right: 5%;
 }
