@@ -1,42 +1,54 @@
 body{
-  background:#5CDB95;
+  background:#FFFFFF;
 }
 
 h1 {
-  color:#EDF5E1;
+  color:#76323F;
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
   line-height: 46px;
   font-size: 40px;
-  margin: 0 0 5px 0;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {
-  color:#05386B;
+  color:#76323F;
   font-family: 'Dosis', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 23px;
-  margin: 0 0 10px 0;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
-  color:#05386B;
-  background: #8EE4AF;
+  color:#565656;
+  background: #D7CEC7;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 23px;
-  margin: 10px 0 10px 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 1.5%;
   border-radius: 0%;
 }
 
 a {
-  color:#05386B;
+  color:#565656;
 }
 
 nav ul li {
-  color:#05386B;
+  color:#565656;
+  background: #8BE8CB;
+  width: auto;
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   display: inline-block;
@@ -45,13 +57,13 @@ nav ul li {
   padding: 0px 15px 5px 15px;
 }
 nav ul li a{
-  color:#05386B;
+  color:#565656;
   text-decoration: none;
   font-weight: bold;
 }
 
 project ul li{
-  color:#EDF5E1;
+  color:#565656;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   list-style-type: square;
@@ -60,7 +72,7 @@ project ul li{
 }
 
 footer{
-  color:#05386B;
+  color:#565656;
   clear:both;
   margin: 25px 0 0 0;
 }
@@ -81,7 +93,7 @@ footer{
 }
 
 .about{
-  color:#05386B;
+  color:#565656;
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
   line-height: 46px;
@@ -91,19 +103,19 @@ footer{
 }
 
 blockquote {
-  color: #05386B;
+  color: #76323F;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 800;
   font-style: italic;
-  background: #5CDB95;
-  border-left: 10px solid #ccc;
-  margin: 10px 10px 0px 10px;
+  background: #D7CEC7;
+  border-left: 10px solid #76323F;
+  margin: 10px 23% 0px 23%;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
-  color: #ccc;
+  color: #76323F;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
